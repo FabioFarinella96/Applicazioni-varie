@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(65, 60, 60);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* tabellina  */
+
+.container-tabellina {
+  width: 600px;
+  height: 30vh;
+  background-color: rgb(222, 230, 220);
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 40px 0;
+  padding: 30px;
+}
+
+.container-tabellina .title-tabellina {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-tabellina #number {
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+/* oggi fa caldo o freddo?  */
+
+.container-temperature {
+  width: 800px;
+  height: 40vh;
+  background-color: rgb(220, 226, 219);
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.container-temperature .title-temperature {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-temperature #temperature {
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+}
