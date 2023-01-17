@@ -1,0 +1,30 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  text-align: center;
+  font-family: Verdana;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.light-theme {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.dark-theme {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.switchButton {
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
